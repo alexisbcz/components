@@ -1,0 +1,35 @@
+// Package label is the shadcn/ui Label (Radix Label): an accessible label
+// associated with a control.
+//
+//	label.Label(h.For("email"), "Email")
+//
+// Like Radix, double-clicking the label does not select its text (see
+// label.js).
+package label
+
+import (
+	_ "embed"
+	"github.com/alexisbcz/components/style"
+	"github.com/alexisbcz/components/ui/internal/scoped"
+
+	"github.com/alexisbcz/components/lib"
+	"github.com/alexisbcz/components/ui/runtime"
+	h "github.com/alexisbcz/libhtml"
+)
+
+//go:embed label.js
+var script string
+
+func init() { runtime.Module("label", script) }
+
+var base = h.Label(h.Data("slot", "label"), h.Class(lib.Cn(
+	"flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50",
+)))
+
+// Label returns a <label>.
+func Label(children ...any) *scoped.Node {
+	return scoped.Spread(base, h.Label(children...), scoped.Slot("label", "label", baseLabel))
+}
+
+// registry/bases/radix/ui/label.tsx, used inside a style.Scope.
+var baseLabel = style.Cn("cn-label flex items-center select-none group-data-[disabled=true]:pointer-events-none peer-disabled:cursor-not-allowed", style.Arg)

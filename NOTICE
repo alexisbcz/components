@@ -1,0 +1,18 @@
+This project includes code ported from or bundled with the following projects.
+
+- shadcn/ui: MIT License. Copyright (c) 2023 shadcn.
+- Radix UI primitives: MIT License. Copyright (c) 2022 WorkOS.
+- Base UI (@base-ui/react): MIT License. Copyright (c) 2019 Material-UI SAS.
+- Floating UI (@floating-ui/dom): MIT License. Copyright (c) 2021-present Floating UI contributors.
+- Embla Carousel 8.5.2: MIT License. Copyright (c) 2019-present David Jerleke.
+- Recharts 3.8.0: MIT License. Copyright (c) 2015-present recharts.
+- d3-scale, d3-shape, d3-path, d3-array, d3-interpolate, d3-format, d3-color, internmap: ISC License. Copyright 2010-2023 Mike Bostock.
+- Sonner 2.0.7: MIT License. Copyright (c) 2023 Emil Kowalski.
+- Vaul: MIT License. Copyright (c) 2023 Emil Kowalski.
+- cmdk: MIT License. Copyright (c) 2022 Paco Coursey.
+- input-otp: MIT License. Copyright (c) Guilherme Rodz.
+- react-resizable-panels: MIT License. Copyright (c) 2018 Brian Vaughn.
+- react-hook-form: MIT License. Copyright (c) 2019-present Beier (Bill) Luo.
+- react-day-picker: MIT License. Copyright (c) 2014-2025 Giampaolo Bellavite and contributors.
+- aria-hidden, react-remove-scroll: MIT License. Copyright (c) 2017 Anton Korzunov.
+- tw-animate-css: MIT License. Copyright (c) 2025 Wombosvideo.
