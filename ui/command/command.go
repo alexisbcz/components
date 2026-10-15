@@ -47,10 +47,10 @@ import (
 	"github.com/alexisbcz/components/ui/dialog"
 	"github.com/alexisbcz/components/ui/dialog/primitive"
 	inputgroup "github.com/alexisbcz/components/ui/input-group"
+	"github.com/alexisbcz/components/ui/internal/rtl"
 	"github.com/alexisbcz/components/ui/internal/tree"
 	"github.com/alexisbcz/components/ui/internal/uid"
 	"github.com/alexisbcz/components/ui/runtime"
-	"github.com/alexisbcz/components/ui/internal/rtl"
 	h "github.com/alexisbcz/libhtml"
 )
 
