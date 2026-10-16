@@ -5,8 +5,8 @@ go 1.27.1
 require (
 	github.com/alexisbcz/cn v0.0.0-20261015095154-25aaf5b5ec60
 	github.com/alexisbcz/cva v0.0.0-20261015084253-851ab81d9e1a
-	github.com/alexisbcz/icons v0.0.0-20261015095200-546717184536
-	github.com/alexisbcz/libhtml v0.2.0
+	github.com/alexisbcz/icons v0.0.0-20261016101235-dd2bd6e6b86e
+	github.com/alexisbcz/libhtml v0.2.1-0.20261016101222-4fa4734794e7
 	github.com/dop251/goja v0.0.0-20260911104922-fabc3b8078ad
 )
 

@@ -35,8 +35,8 @@ import (
 	"github.com/alexisbcz/components/lib"
 	"github.com/alexisbcz/components/style"
 	"github.com/alexisbcz/components/ui/internal/aschild"
-	"github.com/alexisbcz/components/ui/internal/tree"
 	"github.com/alexisbcz/components/ui/internal/rtl"
+	"github.com/alexisbcz/components/ui/internal/tree"
 	"github.com/alexisbcz/components/ui/internal/uid"
 	"github.com/alexisbcz/components/ui/menu"
 	"github.com/alexisbcz/components/ui/popper"
@@ -296,6 +296,10 @@ func (b *TriggerBuilder) AcceptChild(c any) bool {
 	}
 	return true
 }
+
+// UserID is the id given to the trigger or, with lib.AsChild, to its child:
+// menu.Share makes it the trigger's id for the whole menu.
+func (b *TriggerBuilder) UserID() string { return menu.UserID(b.Elem(), b.asChild) }
 
 // Element resolves the trigger.
 func (b *TriggerBuilder) Element() *h.Element { return b.element(triggerClass) }

@@ -4,10 +4,10 @@ github.com/alexisbcz/cn v0.0.0-20261015095154-25aaf5b5ec60 h1:ovR27LOkPfMVNzcSmt
 github.com/alexisbcz/cn v0.0.0-20261015095154-25aaf5b5ec60/go.mod h1:WGKZbyILh+UKjJgKEFRY0gDvk2lRWFGAN1DWvLir2hM=
 github.com/alexisbcz/cva v0.0.0-20261015084253-851ab81d9e1a h1:uI777iTlZUsXyGgmOaJ6Iw9Pkv59GMm4moad1zOpLio=
 github.com/alexisbcz/cva v0.0.0-20261015084253-851ab81d9e1a/go.mod h1:CYwyOdrkFmsbRJe5FWc2kFVnGBSLYg8LAEXsXzwXhtY=
-github.com/alexisbcz/icons v0.0.0-20261015095200-546717184536 h1:9Fo8P39FtcnRwq/rT0aEFoEhE/e1CfxCtIPa7o15xRQ=
-github.com/alexisbcz/icons v0.0.0-20261015095200-546717184536/go.mod h1:Z+kWIdmkiYU0+1RRR8DlTD/F2xyYojTm/Ybj3Reo0Q0=
-github.com/alexisbcz/libhtml v0.2.0 h1:cr3CzD+uuxTqRBBdL422g5RtdoYDjd8SD8HGBsI7c+U=
-github.com/alexisbcz/libhtml v0.2.0/go.mod h1:JOJiS09pGPBcxX3oW8xE/YuAakWu8Vaiqhi8hngn/v8=
+github.com/alexisbcz/icons v0.0.0-20261016101235-dd2bd6e6b86e h1:jUAgA5ww39RVmtlgPQlZoaxT92N5i1rZ/DjAjV5bX48=
+github.com/alexisbcz/icons v0.0.0-20261016101235-dd2bd6e6b86e/go.mod h1:4Wmk03E8q4J/yFnkgnp7SIpBKtKhHBu15RsEqlVjtEs=
+github.com/alexisbcz/libhtml v0.2.1-0.20261016101222-4fa4734794e7 h1:GKDB9jLuGzH03sskSnf8AzEthkBxj4cgt6WjQum9WAY=
+github.com/alexisbcz/libhtml v0.2.1-0.20261016101222-4fa4734794e7/go.mod h1:JOJiS09pGPBcxX3oW8xE/YuAakWu8Vaiqhi8hngn/v8=
 github.com/dlclark/regexp2/v2 v2.8.1 h1:I1jbaCbXeOxdVN8z3fb55Mvtgb94/6+Dh0zjmXjKV/0=
 github.com/dlclark/regexp2/v2 v2.8.1/go.mod h1:avUrQvPaLz2DrFNHJF0taWAFFX2C1GMSSoeiqFjcBmU=
 github.com/dop251/goja v0.0.0-20260911104922-fabc3b8078ad h1:5gT9hQ9h8CplLZfAGgFMcoLqQS6I9T2sZwQOCXy8/3s=
